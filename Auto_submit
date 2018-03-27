@@ -1,3 +1,13 @@
+// ==UserScript==
+// @name Auto submit for piao.damai.cn
+// @version      0.1
+// @description  大麦网自动定时发送订票请求
+// @namespace Violentmonkey Scripts
+// @match https://piao.damai.cn/*
+// @grant none
+// @require      https://cdn.bootcss.com/jquery/1.8.2/jquery.min.js
+// 
+// ==/UserScript==
 let num = '2';  //所购买门票数量
 let proId = '12213594';  //所购买门票之Price ID,F12可知
 let startTime = 1514545200000;  //开票时间
