@@ -1,3 +1,13 @@
+// ==UserScript==
+// @name Auto jump to payment for pay.damai.cn
+// @version      0.1
+// @description  大麦网自动跳转第三方支付页面
+// @namespace Violentmonkey Scripts
+// @match *://pay.damai.cn/*
+// @grant none
+// @require      https://cdn.bootcss.com/jquery/1.8.2/jquery.min.js
+// 
+// ==/UserScript==
 $('#operLayer').remove();
 $('.site_guide').remove();
 $('.dm-bottom-wrap').remove();
