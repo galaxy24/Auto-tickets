@@ -1,0 +1,13 @@
+$('#operLayer').remove();
+$('.site_guide').remove();
+$('.dm-bottom-wrap').remove();
+
+$(function(){
+  $('.payTab [typeid=1]').click();          // Switch to online pay tab
+  $('.r[groupid=1][typeid=2]').click();     // Choose Alipay
+  //$('.r[groupid=77][typeid=57]').click();   // Choose WeChatPay
+  
+  // Submit
+  // $('#submit2').click();
+  $('#form1').submit();
+});
