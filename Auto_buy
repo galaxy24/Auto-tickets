@@ -1,0 +1,19 @@
+let cardid = "110004ed1a5147139a46fd068e67258ccc1bb6ed5ce07";  //身份证45位字符串,F12审查元素可知
+
+$('.g-bd img').remove();
+$('#operLayer').remove();
+$('.site_guide').remove();
+$('.dm-bottom-wrap').remove();
+
+$(function(){
+  // Select ID card
+  $('.m-panel-realname .u-btn-rds').append('<div id="monkey-realname"></div>');
+  $('#monkey-realname').click();
+  $('[realname_cardid=' + cardid + ']').click();
+  $('[wid=modal-onevote3] .u-btn-c5').append('<div id="monkey-realname-confirm"></div>');
+  $('#monkey-realname-confirm').click();
+  console.log('ID card selected');
+  
+  // Submit
+  $('#orderConfirmSubmit').click();
+});
