@@ -1,3 +1,14 @@
+// ==UserScript==
+// @name Auto buyer for trade.damai.cn
+// @version      0.1
+// @description  大麦网自动填写订单信息（包括实名信息）
+// @author       Kagurazaka Kotori
+// @namespace Violentmonkey Scripts
+// @match *://buy.damai.cn/*
+// @grant none
+// @require      https://cdn.bootcss.com/jquery/1.8.2/jquery.min.js
+// 
+// ==/UserScript==
 let cardid = "110004ed1a5147139a46fd068e67258ccc1bb6ed5ce07";  //身份证45位字符串,F12审查元素可知
 
 $('.g-bd img').remove();
