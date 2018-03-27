@@ -1,3 +1,13 @@
+// ==UserScript==
+// @name         Hider and Unhider for piao.damai.cn
+// @version      0.1
+// @description  大麦网票务详情页隐藏无关信息并取消隐藏各类选项
+// @namespace Violentmonkey Scripts
+// @match        https://piao.damai.cn/*
+// @grant        none
+// @require      https://cdn.bootcss.com/jquery/1.8.2/jquery.min.js
+// 
+// ==/UserScript==
 $('.hd').remove();
 $('.sd').remove();
 $('.g-ft').remove();
